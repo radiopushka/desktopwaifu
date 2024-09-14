@@ -1,3 +1,3 @@
 all:
-	gcc draw.c setimage.c -lX11 -lXext -lm -lpng -Wall -o deskwaifu 
+	cc draw.c setimage.c -march=native -O2 -lX11 -lXext -lm -lpng -Wall -o deskwaifu 
 	 
